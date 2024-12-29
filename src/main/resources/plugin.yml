@@ -1,0 +1,4 @@
+name: Better Manhunts
+version: '${project.version}'
+main: dev.oltsu.bettermanhunts.BetterManhunts
+api-version: '1.20'
