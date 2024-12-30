@@ -1,4 +1,9 @@
-name: Better Manhunts
+name: BetterManhunts
 version: '${project.version}'
-main: dev.oltsu.bettermanhunts.BetterManhunts
+main: dev.oltsu.bettermanhunts.Main
 api-version: '1.20'
+commands:
+  manhunt:
+    description: Manage the manhunt game.
+    usage: /manhunt <start|stop|addhunter|setspeedrunner>
+    permission: bettermanhunts.manage
